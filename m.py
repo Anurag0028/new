@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#By @PATELJI299
+#By @PATELJIDDOS
 
 import telebot
 import subprocess
@@ -246,9 +246,9 @@ def handle_bgmi(message):
                 subprocess.run(full_command, shell=True)
                 response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
         else:
-            response = "Usage :- /bgmi <target> <port> <time>\nBy @Owner_xPro_user"  # Updated command syntax
+            response = "Usage :- /bgmi <target> <port> <time>\nBy @PATELJIDDOS"  # Updated command syntax
     else:
-        response = "You Are Not Authorized To Use This Command.\nBy @PATELJI299"
+        response = "You Are Not Authorized To Use This Command.\nBy @PATELJIDDOS"
 
     bot.reply_to(message, response)
 
@@ -329,7 +329,7 @@ Pr-ice List:
 Day-->150 Rs
 Week-->900 Rs
 Month-->1600 Rs
-By @PATELJI299
+By @PATELJIDDOS
 '''
     bot.reply_to(message, response)
 
@@ -344,7 +344,7 @@ def welcome_plan(message):
 /logs : All Users Logs.
 /broadcast : Broadcast a Message.
 /clearlogs : Clear The Logs File.
-By @PATELJI299
+By @PATELJIDDOS
 '''
     bot.reply_to(message, response)
 
